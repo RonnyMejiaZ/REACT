@@ -28,7 +28,7 @@ export const App = () => {
         Elon Musk
       </TwitterFollowCard>
 
-      <button onClick={() => setName("Daniel")}>Cambiar Nombree</button>
+      <button onClick={() => setName("Daniel")}>Cambiar Nombre</button>
     </section>
   );
 };
