@@ -1,5 +1,4 @@
 
-/* eslint-disable react/prop-types */
 export const Square = ({ children, isSelected, updateBoard, index }) => {
   const className = `square ${isSelected ? "is-selected" : ""}`;
 
@@ -14,3 +13,6 @@ export const Square = ({ children, isSelected, updateBoard, index }) => {
     </div>
   );
 };
+
+
+
